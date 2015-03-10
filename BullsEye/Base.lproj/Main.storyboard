@@ -97,7 +97,10 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="roundLabel" destination="44t-gw-Svs" id="8j9-NW-VES"/>
+                        <outlet property="scoreLabel" destination="s7l-cB-4rg" id="AWH-AG-An0"/>
                         <outlet property="slider" destination="ny8-Ld-Da3" id="hGX-rw-Lmc"/>
+                        <outlet property="targetLabel" destination="mXH-qq-4hP" id="QVD-g8-SR0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

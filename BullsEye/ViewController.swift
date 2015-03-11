@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        startNewRound()
+        startNewGame()
         updateLabels()
     }
 
@@ -33,20 +33,50 @@ class ViewController: UIViewController {
 
     @IBAction func showAlert() {
         let difference: Int = abs(currentValue - targetValue)
-        let points = 100 - difference
+        var points = 100 - difference
+        
+        var title: String
+        if difference == 0 {
+            title = "Perfect!"
+            points += 100
+        } else if difference < 5 {
+            if difference == 1 {
+                points += 50
+            }
+            title = "You almost made it!"
+        } else if difference < 10 {
+            title = "Pretty good!"
+        } else {
+            title = "Not even close..."
+        }
+        
         score += points
         
         let message = "You scored \(points) points"
-        let alert = UIAlertController(title: "Hello, World", message: message, preferredStyle: .Alert)
-        let action = UIAlertAction(title: "OK", style: .Default, handler: nil)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .Alert)
+        let action = UIAlertAction(title: "OK", style: .Default,
+            handler: {
+            action in
+            self.startNewRound()
+            self.updateLabels()
+        })
         alert.addAction(action)
         presentViewController(alert, animated: true, completion: nil)
-        startNewRound()
-        updateLabels()
     }
     
     @IBAction func slideMoved(slider: UISlider) {
         currentValue = lroundf(slider.value)
+    }
+    
+    @IBAction func startOver(){
+        startNewGame()
+        updateLabels()
+    }
+    
+    func startNewGame() {
+        round = 0
+        score = 0
+        startNewRound()
     }
     
     func startNewRound() {

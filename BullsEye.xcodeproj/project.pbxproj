@@ -14,6 +14,7 @@
 		9C355BF41AA93E4700942023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C355BF31AA93E4700942023 /* Images.xcassets */; };
 		9C355BF71AA93E4700942023 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C355BF51AA93E4700942023 /* LaunchScreen.xib */; };
 		9C355C031AA93E4700942023 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C355C021AA93E4700942023 /* BullsEyeTests.swift */; };
+		9CB80A9D1AAFCD8500246DD6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB80A9C1AAFCD8500246DD6 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9C355BFC1AA93E4700942023 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C355C011AA93E4700942023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C355C021AA93E4700942023 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		9CB80A9C1AAFCD8500246DD6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				9C355BE91AA93E4700942023 /* AppDelegate.swift */,
 				9C355BEE1AA93E4700942023 /* ViewController.swift */,
+				9CB80A9C1AAFCD8500246DD6 /* AboutViewController.swift */,
 				9C355BF01AA93E4700942023 /* Main.storyboard */,
 				9C355BF31AA93E4700942023 /* Images.xcassets */,
 				9C355BF51AA93E4700942023 /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			files = (
 				9C355BEF1AA93E4700942023 /* ViewController.swift in Sources */,
 				9C355BED1AA93E4700942023 /* BullsEye.xcdatamodeld in Sources */,
+				9CB80A9D1AAFCD8500246DD6 /* AboutViewController.swift in Sources */,
 				9C355BEA1AA93E4700942023 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				9C355C081AA93E4700942023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C355C091AA93E4700942023 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				9C355C0B1AA93E4700942023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

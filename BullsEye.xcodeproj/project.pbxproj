@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C02E0B31AB12C9C00A78E58 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C02E0B21AB12C9C00A78E58 /* BullsEye.html */; };
 		9C355BEA1AA93E4700942023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C355BE91AA93E4700942023 /* AppDelegate.swift */; };
 		9C355BED1AA93E4700942023 /* BullsEye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C355BEB1AA93E4700942023 /* BullsEye.xcdatamodeld */; };
 		9C355BEF1AA93E4700942023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C355BEE1AA93E4700942023 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C02E0B21AB12C9C00A78E58 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../../Desktop/iOS/iOS apprentice/The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 		9C355BE41AA93E4700942023 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C355BE81AA93E4700942023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C355BE91AA93E4700942023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		9C355BE61AA93E4700942023 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				9C02E0B21AB12C9C00A78E58 /* BullsEye.html */,
 				9C355BE91AA93E4700942023 /* AppDelegate.swift */,
 				9C355BEE1AA93E4700942023 /* ViewController.swift */,
 				9CB80A9C1AAFCD8500246DD6 /* AboutViewController.swift */,
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C355BF21AA93E4700942023 /* Main.storyboard in Resources */,
+				9C02E0B31AB12C9C00A78E58 /* BullsEye.html in Resources */,
 				9C355BF71AA93E4700942023 /* LaunchScreen.xib in Resources */,
 				9C355BF41AA93E4700942023 /* Images.xcassets in Resources */,
 			);
